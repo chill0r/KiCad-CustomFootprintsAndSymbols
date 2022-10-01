@@ -1,0 +1,65 @@
+(footprint "DRV8830" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "DRV8830 Half-Bridge I2C Motor driver")
+  (tags "I2C Motor Driver")
+  (solder_mask_margin 0.05)
+  (clearance 0.05)
+  (attr smd)
+  (fp_text reference "REF**" (at 3.6 -4 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e59def9f-25e3-4018-8b43-ef02a1ccc46c)
+  )
+  (fp_text value "DRV8830" (at 9.5 -1.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 278dd96e-d510-4d45-910c-fa2666d5c073)
+  )
+  (fp_text user "${REFERENCE}" (at 8.3 -2.8 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e5fd7a81-51a0-428e-8df2-c71abff32f8e)
+  )
+  (fp_rect (start 1.8 -3.2) (end 4.4 -0.2) (layer "F.SilkS") (width 0.12) (fill none) (tstamp d7751708-8b36-467f-9579-75218cf35c45))
+  (fp_rect (start 0 -3.4) (end 6.2 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp d2f9df1f-75f9-4fd9-ab5e-d3f03733b634))
+  (pad "1" smd roundrect (at 0.9 -2.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp f0b8f12a-a792-46d9-9524-18a7f8d97059))
+  (pad "2" smd roundrect (at 0.9 -2.2) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 95bce034-6b92-46eb-87c7-08dbcd4c5cd5))
+  (pad "3" smd roundrect (at 0.9 -1.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 31c3c020-b2fc-4a3e-a686-fdaa2abf120f))
+  (pad "4" smd roundrect (at 0.9 -1.2) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp a8cb18e4-b3bd-4f24-9048-fb439e78fc65))
+  (pad "5" smd roundrect (at 0.9 -0.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 5a00225e-e24f-461b-9365-0215056cb65f))
+  (pad "5" smd roundrect (at 3.1 -1.7) (size 1.83 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02272727273)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp f52add8e-dc20-4da8-a52e-421e1a95a5d2))
+  (pad "6" smd roundrect (at 5.3 -0.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 2d803ac0-4768-4fb5-87f6-452c7d8ff8d4))
+  (pad "7" smd roundrect (at 5.3 -1.2) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp a359c58e-96f9-486b-b31e-3f7ec747d6b5))
+  (pad "8" smd roundrect (at 5.3 -1.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 8eb60047-6186-4469-bdee-fc6f509ca034))
+  (pad "9" smd roundrect (at 5.3 -2.2) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 68f458f4-49fa-4626-8e2d-89aad70f08d2))
+  (pad "10" smd roundrect (at 5.3 -2.7) (size 1.45 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667)
+    (solder_mask_margin 0.05) (clearance 0.05) (tstamp 95adacf8-1fef-4765-adbd-81f20864e934))
+  (group "" (id 59673fee-9b1b-46e2-934a-9ef238d827cd)
+    (members
+      2d803ac0-4768-4fb5-87f6-452c7d8ff8d4
+      31c3c020-b2fc-4a3e-a686-fdaa2abf120f
+      5a00225e-e24f-461b-9365-0215056cb65f
+      68f458f4-49fa-4626-8e2d-89aad70f08d2
+      8eb60047-6186-4469-bdee-fc6f509ca034
+      8f86a315-058c-4f1a-ad79-5a1eac18e666
+      95adacf8-1fef-4765-adbd-81f20864e934
+      95bce034-6b92-46eb-87c7-08dbcd4c5cd5
+      a359c58e-96f9-486b-b31e-3f7ec747d6b5
+      a8cb18e4-b3bd-4f24-9048-fb439e78fc65
+      f0b8f12a-a792-46d9-9524-18a7f8d97059
+    )
+  )
+  (group "" (id 8f86a315-058c-4f1a-ad79-5a1eac18e666)
+    (members
+      f52add8e-dc20-4da8-a52e-421e1a95a5d2
+    )
+  )
+)
